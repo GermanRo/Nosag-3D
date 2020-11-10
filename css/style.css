@@ -1,9 +1,3 @@
-/*
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -45,12 +39,19 @@ h6 {
   padding: 0;
 }
 
+.img-fluid{
+  max-width: 60%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
 /* Back to top button */
 
 .back-to-top {
   position: fixed;
   display: none;
-  background: #18d26e;
+  background: #05F2DB;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -136,7 +137,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(55, 42, 140, 0.9);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -160,7 +161,7 @@ h6 {
 #header #logo h1 a:hover {
   color: #fff;
   padding-left: 10px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid #05F2DB;
 }
 
 #header #logo img {
@@ -381,7 +382,7 @@ h6 {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #E8D7F1;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -391,7 +392,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-  color: #18d26e;
+  color: #05F2DB;
 }
 
 .nav-menu > li {
@@ -419,7 +420,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #18d26e;
+  color: #05F2DB;
 }
 
 .nav-menu ul ul {
@@ -579,7 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 40px;
   height: 3px;
-  background: #18d26e;
+  background: #05F2DB;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -601,7 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #featured-services {
-  background: #000;
+  background: #372A8C;
 }
 
 #featured-services .box {
@@ -609,7 +610,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+  /*background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);*/
 }
 
 #featured-services i {
@@ -776,6 +777,56 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+/* Call To Action Section
+--------------------------------*/
+
+/* Factibilidad Section
+--------------------------------*/
+
+#factibilidad {
+ 
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+#factibilidad .box {
+  margin-bottom: 30px;
+}
+
+#factibilidad .icon {
+  float: left;
+}
+
+#factibilidad .icon i {
+  color: #18d26e;
+  font-size: 36px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#factibilidad .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#factibilidad .title a {
+  color: #111;
+}
+
+#factibilidad .box:hover .title a {
+  color: #18d26e;
+}
+
+#factibilidad .description {
   font-size: 14px;
   margin-left: 60px;
   line-height: 24px;
@@ -1355,14 +1406,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #000;
+  background: #372A8C;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #111;
+  background: #372A8C;
   padding: 60px 0 30px 0;
 }
 
@@ -1378,7 +1429,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid #05F2DB;
 }
 
 #footer .footer-top .footer-info p {
@@ -1405,7 +1456,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #18d26e;
+  background: #05F2DB;
   color: #fff;
 }
 
@@ -1433,7 +1484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top h4::after {
-  background: #18d26e;
+  background: #05F2DB;
   width: 60px;
 }
 
@@ -1466,7 +1517,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #18d26e;
+  color: #05F2DB;
 }
 
 #footer .footer-top .footer-contact {
@@ -1488,7 +1539,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #18d26e;
+  background: #05F2DB;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1499,7 +1550,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #13a456;
+  background: #05F2DB;
 }
 
 #footer .copyright {

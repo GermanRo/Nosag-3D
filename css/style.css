@@ -40,15 +40,38 @@ h6 {
 }
 
 .img-fluid{
-  display: block;
-margin-left: auto;
-margin-right: auto;
+	
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	webkit-box-shadow: 1px 2px 31px -9px rgba(54,54,54,1);
+	moz-box-shadow: 1px 2px 31px -9px rgba(54,54,54,1);
+	box-shadow: 1px 2px 31px -9px rgba(54,54,54,1);
 }
 
+.img-fluid05{
+	width: 75%;
+	height: auto;
+display: block;
+	margin-left: auto;
+	margin-right: auto;
+	webkit-box-shadow: 1px 2px 9px -1px rgba(117,117,117,1);
+	moz-box-shadow: 1px 2px 9px -1px rgba(117,117,117,1);
+	box-shadow: 1px 2px 9px -1px rgba(117,117,117,1);
+	
+	
+}
+
+
 .img-fluid02{
-   display: block;
-margin-left: auto;
-margin-right: auto;
+	width: 80%;
+	height: auto;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	webkit-box-shadow: 1px 2px 31px -9px rgba(54,54,54,1);
+	moz-box-shadow: 1px 2px 31px -9px rgba(54,54,54,1);
+	box-shadow: 1px 2px 31px -9px rgba(54,54,54,1);
 }
 
 .img-fluid03{
@@ -59,10 +82,24 @@ margin-right: auto;
 	margin-right: auto;
 }
 
+.img-fluid04{
+	width: 50%;
+	height: 50%;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	webkit-box-shadow: 1px 2px 31px -9px rgba(54,54,54,1);
+	moz-box-shadow: 1px 2px 31px -9px rgba(54,54,54,1);
+	box-shadow: 1px 2px 31px -9px rgba(54,54,54,1);
+}
+
+
 .textomision{
 	
 	text-align:center;
 }
+
+
 /* Back to top button */
 
 .back-to-top {
@@ -199,13 +236,13 @@ margin-right: auto;
 #intro {
   display: table;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background: #000;
 }
 
 #intro .carousel-item {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -715,7 +752,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   background-color: #05F2DB;
   border-radius: 50%;
-  text-align: center;
   border: 4px solid #fff;
   left: calc( 50% - 32px);
   bottom: -30px;
@@ -810,7 +846,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   background-color: #05F2DB;
   border-radius: 50%;
-  text-align: center;
   border: 4px solid #fff;
   left: calc( 50% - 32px);
   bottom: -30px;
@@ -1067,7 +1102,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #facts .facts-img {
   text-align: center;
+	margin-bottom: 100px;
   padding-top: 30px;
+
+}
+
+.estudio-mercado{
+	
+	margin-bottom: 70px;
 }
 
 /* Portfolio Section
